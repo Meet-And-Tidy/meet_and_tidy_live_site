@@ -26,3 +26,19 @@
 
 
  */
+
+ footer {
+  background-color: #71AB47;
+ }
+
+ .newsletter {
+  background-color: #CEFDAC;
+ }
+
+ .jumbotron {
+  background-image: url(meet-and-tidy-jumbotro-38795fc71855c09787e96701e75ad5979d0a18acbe885a5dd56d32da083beccd.png);
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size:auto;
+}
