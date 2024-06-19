@@ -1,7 +1,7 @@
-import { Link, Outlet, useNavigate } from 'react-router-dom';
-import './Layout.scss';
-import useToken from '../../hooks/useToken/useToken';
-import logo from '../../assets/logo.png';
+import { Link, Outlet, useNavigate } from "react-router-dom";
+import "./Layout.scss";
+import useToken from "../../hooks/useToken/useToken";
+import logo from "../../assets/logo.png";
 
 const Layout = () => {
   const navigate = useNavigate();
@@ -10,9 +10,9 @@ const Layout = () => {
   return (
     <div className="layout">
       <header>
-        <span className="logo" onClick={() => navigate('/')}>
+        <span className="logo" onClick={() => navigate("/")}>
           <img src={logo} />
-          React Skeleton
+          Meet&Tidy
         </span>
 
         <Link to="/">Home</Link>
