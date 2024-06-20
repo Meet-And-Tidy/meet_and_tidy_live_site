@@ -1,6 +1,6 @@
 import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from '../common/Layout/Layout';
+import Navbar from '../common/Navbar/Navbar';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import ContactUs from '../pages/ContactUs/ContactUs';
@@ -9,10 +9,10 @@ import Footer from '../common/Footer/Footer';
 
 const App = () => {
   return (
-    <>    
+    <div className='main'>    
       <BrowserRouter>
         <Routes>
-          <Route element={<Layout />}>
+          <Route element={<Navbar />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<ContactUs />} />
@@ -21,7 +21,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </>
+    </div>
 
   );
 };
