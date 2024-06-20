@@ -18,7 +18,7 @@ describe('Layout', () => {
   test('renders', () => {
     expect(screen.getByText('React Skeleton')).toBeTruthy();
     expect(screen.getByText('Home')).toBeTruthy();
-    expect(screen.getByText('Examples')).toBeTruthy();
+    expect(screen.getByText('About')).toBeTruthy();
   });
 
   test('navigates home when logo clicked', async () => {

@@ -1,5 +1,5 @@
 import * as apiCall from '../../apiCall/apiCall';
-import Example from './Example';
+import ContactUs from './ContactUs';
 
 describe('Parcel', () => {
   beforeEach(() => {
@@ -7,7 +7,7 @@ describe('Parcel', () => {
   });
 
   it('should return data', async () => {
-    await Example.find();
-    expect(apiCall.default).toHaveBeenCalledWith('GET', '/example');
+    await ContactUs.find();
+    expect(apiCall.default).toHaveBeenCalledWith('GET', '/contact');
   });
 });
