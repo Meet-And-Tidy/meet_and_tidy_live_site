@@ -6,24 +6,22 @@ nav {
   right: 0; 
   text-align: center;
   width: 100%; /* Full width */
+  background: white;
 }
 
 header {
-  height: 50px;
+  height: 185px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
-  gap: 15px;
 }  
 
 .logo {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
   cursor: pointer;
 
   img {
-    height: 36px;
+    height: 8rem;
   }
 }
 
@@ -31,4 +29,11 @@ a:hover,
 button:hover,
 .logo:hover {
   color: rgb(91, 91, 91);
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
 }

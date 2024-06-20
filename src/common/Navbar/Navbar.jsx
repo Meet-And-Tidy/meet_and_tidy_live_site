@@ -10,11 +10,13 @@ const Navbar = () => {
           <span className="logo">
             <img src={logo} />
           </span>
+        </header>
+        <div className="links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact Us</Link>
           <Link to="/faqs">FAQs</Link>
-        </header>
+        </div>
       </nav>
       <Outlet />
     </>
