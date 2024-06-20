@@ -7,10 +7,11 @@ nav {
   text-align: center;
   width: 100%; /* Full width */
   background: white;
+  padding-bottom: 1rem;
 }
 
 header {
-  height: 185px;
+  height: 175px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +29,7 @@ header {
 a:hover,
 button:hover,
 .logo:hover {
-  color: rgb(91, 91, 91);
+  color: rgb(26, 84, 18);
 }
 
 .links {

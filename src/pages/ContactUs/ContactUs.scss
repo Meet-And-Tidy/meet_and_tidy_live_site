@@ -1,12 +1,11 @@
-.contact {
+form {
+  width: 500px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-
-  a {
-    color: black;
-
-    &:hover {
-      filter: contrast(4%);
-    }
-  }
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(195, 255, 195);
+  border: rgb(108, 195, 108) solid 2px;
+  border-radius: 0.5rem;
 }

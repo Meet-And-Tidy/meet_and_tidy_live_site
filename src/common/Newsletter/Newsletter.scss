@@ -1,7 +1,10 @@
-.footer {
+.newsletter {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  background-color: rgb(195, 255, 195);
+  border: rgb(108, 195, 108) solid 2px;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
 
   a {
     color: black;
