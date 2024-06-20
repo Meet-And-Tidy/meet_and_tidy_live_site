@@ -3,7 +3,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <footer>
-      <div >
+      <div className="socials">
         <a>
           <span>Facebook</span>
           <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
