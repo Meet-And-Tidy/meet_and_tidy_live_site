@@ -1,0 +1,13 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  a {
+    color: black;
+
+    &:hover {
+      filter: contrast(4%);
+    }
+  }
+}
