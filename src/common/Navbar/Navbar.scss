@@ -1,0 +1,34 @@
+nav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  right: 0; 
+  text-align: center;
+  width: 100%; /* Full width */
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 15px;
+}  
+
+.logo {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    height: 36px;
+  }
+}
+
+a:hover,
+button:hover,
+.logo:hover {
+  color: rgb(91, 91, 91);
+}

@@ -1,18 +1,18 @@
 import { cleanup, screen } from '@testing-library/react';
 import * as useToken from '../../hooks/useToken/useToken';
 import { renderWithRouter } from '../../utils/testHelper/testHelper';
-import Layout from './Layout';
+import Navbar from './Navbar';
 import userEvent from '@testing-library/user-event';
 import * as reactRouter from 'react-router';
 
 const mockSetToken = jest.fn();
 const mockNavigate = jest.fn();
 
-describe('Layout', () => {
+describe('Navbar', () => {
   beforeEach(() => {
     jest.spyOn(useToken, 'default').mockReturnValue({ token: null });
     jest.spyOn(reactRouter, 'useNavigate').mockReturnValue(mockNavigate);
-    renderWithRouter(<Layout />);
+    renderWithRouter(<Navbar />);
   });
 
   test('renders', () => {
@@ -32,7 +32,7 @@ describe('Layout', () => {
       jest
         .spyOn(useToken, 'default')
         .mockReturnValue({ token: 'someToken', setToken: mockSetToken });
-      renderWithRouter(<Layout />);
+      renderWithRouter(<Navbar />);
     });
 
     test('displays logout', () => {
@@ -57,7 +57,7 @@ describe('Layout', () => {
     beforeEach(() => {
       cleanup();
       jest.spyOn(useToken, 'default').mockReturnValue({ token: null });
-      renderWithRouter(<Layout />);
+      renderWithRouter(<Navbar />);
     });
 
     test('does not display logout', () => {
