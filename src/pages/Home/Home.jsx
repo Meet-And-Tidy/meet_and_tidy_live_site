@@ -1,5 +1,4 @@
 import NewsletterModal from "../../common/Newsletter/NewsletterModal";
-import "./Home.scss";
 
 const Home = () => {
   return (

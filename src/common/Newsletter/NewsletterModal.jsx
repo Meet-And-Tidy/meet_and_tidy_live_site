@@ -1,4 +1,3 @@
-import './Newsletter.scss';
 import NewsletterForm from './NewsletterForm';
 
 const NewsletterModal = () => {

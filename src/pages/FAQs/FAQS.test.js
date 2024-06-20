@@ -6,9 +6,4 @@ describe('FAQs', () => {
   beforeEach(() => {
     renderWithRouter(<FAQs />);
   });
-
-  // it('renders', () => {
-  //   expect(screen.getByText('About 0')).toBeTruthy();
-  //   expect(screen.getByText('About 19')).toBeTruthy();
-  // });
 });

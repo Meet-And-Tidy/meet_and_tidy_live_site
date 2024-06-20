@@ -6,9 +6,4 @@ describe('ContactUs', () => {
   beforeEach(() => {
     renderWithRouter(<ContactUs />);
   });
-
-  // it('renders', () => {
-  //   expect(screen.getByText('About 0')).toBeTruthy();
-  //   expect(screen.getByText('About 19')).toBeTruthy();
-  // });
 });

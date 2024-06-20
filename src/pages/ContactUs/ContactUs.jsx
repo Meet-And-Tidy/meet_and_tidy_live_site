@@ -1,4 +1,3 @@
-import './ContactUs.scss';
 import ContactForm from './ContactForm';
 
 const ContactUs = () => {

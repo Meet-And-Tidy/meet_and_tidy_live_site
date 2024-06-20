@@ -1,5 +1,3 @@
-import './Newsletter.scss';
-
 const NewsletterForm = () => {
   return (
   <>
