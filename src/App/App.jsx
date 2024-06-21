@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from '../common/Navbar/Navbar';
+import Navbar from '../common/Layout/Layout';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import ContactUs from '../pages/ContactUs/ContactUs';
@@ -21,7 +21,6 @@ const App = () => {
       </BrowserRouter>
       <Footer />
     </div>
-
   );
 };
 
