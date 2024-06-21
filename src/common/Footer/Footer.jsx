@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bottom-0 left-0 right-0 text-center w-full py-3">
+    <footer className="bottom-0 left-0 right-0 text-center w-full py-3 bg-[#71AB47]">
       <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
         <div className="pb-6">
           <a href="faqs.html#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Blog</a>
