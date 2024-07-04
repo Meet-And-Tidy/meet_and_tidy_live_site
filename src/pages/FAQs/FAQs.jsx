@@ -4,12 +4,8 @@ const FAQs = () => {
       <div className="isolate pb-32">
         <div className="relative isolate -z-10">
           <div className="overflow-hidden">
-            <div className="mx-auto max-w-7xl px-6 pb-16">
-              <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Frequently Asked Questions</h1>
-                </div>
-              </div>
+            <div className="w-full lg:shrink-0 xl:max-w-2xl mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none items-center text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Frequently Asked Questions</h1>
             </div>
             <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
               <details>
