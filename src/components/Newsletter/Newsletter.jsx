@@ -1,8 +1,8 @@
 import NewsletterForm from './NewsletterForm';
 
-const NewsletterModal = () => {
+const Newsletter = () => {
   return (
-    <div className="w-full h-[650px] py-60">
+    <div className="w-full h-[600px] py-36">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
         <div className="max-w-xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:col-span-7">
           <h2 className="inline sm:block lg:inline xl:block">Keep up to date with us &</h2>
@@ -14,6 +14,4 @@ const NewsletterModal = () => {
   );
 };
 
-export default NewsletterModal;
-
-
+export default Newsletter;

@@ -1,6 +1,6 @@
 const FAQs = () => {
   return (
-    <div className="container mx-auto mt-28 px-5">
+    <div className="mt-28 bg-brandGreen">
       <div className="isolate pb-32">
         <div className="relative isolate -z-10">
           <div className="overflow-hidden">
@@ -30,18 +30,6 @@ const FAQs = () => {
                 <summary className="py-2 outline-none cursor-pointer focus:underline">Can I return a product if Im not satisfied?</summary>
                 <div className="px-4 pb-4">
                   <p>Yes, we have a hassle-free return policy. If you are not satisfied with your purchase, you can initiate a return within 30 days of receiving the product. Please contact our customer support at <a href="faqs.html" className="underline">example@gmail.com</a> for assistance.</p>
-                </div>
-              </details>
-              <details>
-                <summary className="py-2 outline-none cursor-pointer focus:underline">Do you offer international shipping?</summary>
-                <div className="px-4 pb-4">
-                  <p>Currently, we only provide shipping services within India. However, we may consider expanding our shipping options to international locations in the future. Please stay updated with our website for any changes in shipping destinations.</p>
-                </div>
-              </details>
-              <details>
-                <summary className="py-2 outline-none cursor-pointer focus:underline">What is your customer support contact?</summary>
-                <div className="px-4 pb-4">
-                  <p>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="faqs.html" className="underline">example@gmail.com</a>.</p>
                 </div>
               </details>
               <details>
