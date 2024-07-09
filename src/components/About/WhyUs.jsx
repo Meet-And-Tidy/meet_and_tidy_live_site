@@ -12,6 +12,14 @@ const WhyUs = () => {
           alt="man with plastic bottles"
           className="rounded-xl h-96 flex"
         />
+        <div className="flex justify-center pt-10">
+          <h1 className="uppercase my-2.5 text-brandGreen text-4xl font-extrabold">Improve the environment</h1>
+          <span className="text-brandDarkGreen text-6xl"> | </span>
+          <h1 className="uppercase my-2.5 text-brandGreen text-4xl font-extrabold">Improve Community bonds</h1>
+          <span className="text-brandDarkGreen text-6xl"> | </span>
+          <h1 className="uppercase my-2.5 text-brandGreen text-4xl font-extrabold">Improve your mindset</h1>
+        </div>
+
       </div>
     </div>
   )
