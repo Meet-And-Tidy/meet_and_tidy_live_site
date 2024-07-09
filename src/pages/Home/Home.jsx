@@ -1,18 +1,18 @@
-import Jumbotron from "../../components/Jumbotron/Jumbotron";
-import Mission from "../../components/Mission/Mission";
-import About from "../../components/About/About";
-import Aims from "../../components/Aims/Aims";
+import Banner from "../../components/Banner/Banner";
+import Mission from "../../components/About/Mission";
+import WhyUs from "../../components/About/WhyUs";
 import Newsletter from "../../components/Newsletter/Newsletter";
+import FAQs from "../../components/FAQs/FAQs";
 
 const Home = () => {
 
   return (
   <div className="bg-brandGreen">
-    <Jumbotron />
+    <Banner />
     <Mission />
-    <About />
-    <Aims />
+    <WhyUs />
     <Newsletter />
+    <FAQs />
   </div>
   );
 };

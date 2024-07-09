@@ -4,18 +4,7 @@ import googleStore from "../../assets/google-store.png"
 const Footer = () => {
   return (
     <>
-      <footer className="-mb-3 uppercase text-white inset-x-0 h-[325px] text-center w-full py-4 bg-brandDarkGreen static bottom-0">
-        <nav className="columns-2 mt-8 text-xl flex justify-center space-x-10" aria-label="Footer">
-          <div>
-            <a href="#" className="leading-6">Blog</a>
-          </div>
-          <div>
-            <a href="/contact" className="leading-6">Contact Us</a>
-          </div>
-          <div>
-            <a href="/faqs" className="leading-6">FAQS</a>
-          </div>
-        </nav>
+      <footer className="-mb-3 uppercase text-white inset-x-0 h-[275px] text-center w-full py-4 bg-brandDarkGreen static bottom-0">
         <div className="mt-5 flex justify-center space-x-10">
           <a href="faqs.html#" className="">
             <span className="sr-only">Facebook</span>
