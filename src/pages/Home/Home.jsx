@@ -6,6 +6,7 @@ import FAQs from "../../components/FAQs/FAQs";
 import NewsletterModal from "../../components/Newsletter/NewsletterModal";
 
 const Home = () => {
+
   return (
   <>
     <Jumbotron />
