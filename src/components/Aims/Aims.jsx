@@ -1,6 +1,6 @@
 const Aims = () => {
   return (
-  <div className="w-full mt-32 h-[600px] bg-brandGreen">
+  <div className="w-full mt-32 h-[600px] bg-brandLightGreen">
     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our mission</h2>
       <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
