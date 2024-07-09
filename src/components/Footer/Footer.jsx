@@ -5,7 +5,18 @@ const Footer = () => {
   return (
     <>
       <footer className="-mb-3 uppercase text-white inset-x-0 h-[325px] text-center w-full py-4 bg-brandDarkGreen static bottom-0">
-        <div className="mt-10 pb-6 flex justify-center space-x-10">
+        <nav className="columns-2 mt-8 text-xl flex justify-center space-x-10" aria-label="Footer">
+          <div>
+            <a href="#" className="leading-6">Blog</a>
+          </div>
+          <div>
+            <a href="/contact" className="leading-6">Contact Us</a>
+          </div>
+          <div>
+            <a href="/faqs" className="leading-6">FAQS</a>
+          </div>
+        </nav>
+        <div className="mt-5 flex justify-center space-x-10">
           <a href="faqs.html#" className="">
             <span className="sr-only">Facebook</span>
             <svg className="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -25,17 +36,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <nav className="-mb-3 columns-2 text-lg flex justify-center space-x-10" aria-label="Footer">
-          <div>
-            <a href="#" className="leading-6">Blog</a>
-          </div>
-          <div>
-            <a href="/contact" className="leading-6">Contact Us</a>
-          </div>
-          <div>
-            <a href="/faqs" className="leading-6">FAQS</a>
-          </div>
-        </nav>
+
         <div className="mt-10 pb-6 flex justify-center space-x-10">
           <img src={appleStore} alt="apple store" className="h-12" />
           <img src={googleStore} alt="google store" className="h-12" />
