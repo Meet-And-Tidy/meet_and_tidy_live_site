@@ -10,8 +10,8 @@ const Home = () => {
   <div className="bg-brandGreen">
     <Banner />
     <Mission />
-    <WhyUs />
     <Newsletter />
+    <WhyUs />
     <FAQs />
   </div>
   );

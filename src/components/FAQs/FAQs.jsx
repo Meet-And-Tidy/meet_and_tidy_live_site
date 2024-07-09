@@ -1,6 +1,6 @@
 const FAQs = () => {
   return (
-    <div className="h-[600px] flex bg-brandLightGreen">
+    <div className="h-[600px] flex bg-brandGreen">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Frequently Asked Questions</h1>
       <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
         <details>
