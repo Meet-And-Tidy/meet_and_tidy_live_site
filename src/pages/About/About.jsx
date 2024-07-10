@@ -65,10 +65,10 @@ const About = () => {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our mission</h2>
           <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
             <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-              <p className="text-xl leading-8 text-gray-600">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
+              <p className="text-xl leading-8 text-gray-600">The app aims to shift perceptions and inspire action, urging people to rethink their approach to littering for the betterment of our planet.</p>
               <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
-                <p className="mt-10">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
+                <p>Littering is not just a nuisance but a serious threat to our ecosystem, economy, and human health. Despite the fact that dropping litter is illegal in Britain, it remains a prevalent issue.
+                  While dismissing littering as merely anti-social or lazy behaviour is tempting, many underestimate its profound negative impact.</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-auto lg:justify-center">
@@ -95,7 +95,7 @@ const About = () => {
       <img 
           src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="" 
-          className="aspect-[5/2] w-full object-cover h-[650px] lg:rounded-3xl bg-center bg-no-repeat bg-auto inset-x-0" />
+          className="aspect-[5/2] w-full object-cover h-[500px] lg:rounded-3xl bg-center bg-no-repeat bg-auto inset-x-0" />
       </div>
 
       <div className="lg:mx-16 lg:pb-24">

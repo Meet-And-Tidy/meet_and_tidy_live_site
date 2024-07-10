@@ -5,12 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'jumbotron': "url('/src/assets/jumbotron.png')",
-      },
       colors: {
         brandGreen: "#74AC48",
-        brandGreenDark: "#425C2E"
+        brandDarkGreen: "#2C6731",
+        brandLightGreen: "#F1FFE5"
       },
     },
   },
