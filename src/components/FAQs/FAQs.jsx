@@ -1,6 +1,6 @@
 const FAQs = () => {
   return (
-    <div className="h-[700px] flex-row justify-center bg-brandGreen pt-28">
+    <div className="h-[700px] flex flex-col justify-center items-center  bg-brandGreen">
         <h1 className="flex-col text-6xl">Frequently Asked Questions</h1>
         <div className="flex pt-8">
           <img 
