@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import DownloadButton from '../../Download/DownloadButton';
+import DownloadButton from '../../Button/DownloadButton';
 import Logo from '../../../assets/logo.png';
 
 import { menuConfig } from '../menu.config';
